@@ -1,0 +1,35 @@
+
+#### Bash Scripting : Get Started 
+
+What is Bash Scripting?
+    Bash scripting involves writing a sequence of commands in a file to automate tasks. Scripts are executed by the Bash shell, which interprets the commands.
+
+Steps to Get Started
+
+    Step 1: Create a Script:
+            We can use VS code and simple text editor
+            file rename as script.sh
+    step 2: Write Basic Commands:
+            Start the script with a shebang (#!/bin/bash), indicating it's a Bash script.
+            #!/bin/bash
+            echo "Hello, World!"
+
+    Step3: Make the Script Executable:
+            Run: chmod +x script.sh
+    Step 4: Execute the Script:
+            ./script.sh
+
+
+##### Variable
+
+a> system defined
+
+if variale is capital letter then are system defined most likely e.g.
+    echo $BASH
+    echo $PWD
+
+b> user deifine
+    name=Vipul 
+    echo $name ( Vipul wil print)
+
+    
