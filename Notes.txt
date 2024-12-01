@@ -32,4 +32,21 @@ b> user deifine
     name=Vipul 
     echo $name ( Vipul wil print)
 
+
+# Accept the aruguments
+ read 
+ $echo $REPLY
+ 
+ read name
+ $echo name 
+
+ read -p "Enter name :" name
+ $echo name 
+
+ read -sp "Enter Password :" pass
+ $echo pass 
+
+ read -a names
+ echo "${arr[$i]}"
+
     
