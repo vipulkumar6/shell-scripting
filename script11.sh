@@ -82,10 +82,45 @@ n=1;
 #      echo $i
 # done 
 
-# echo ${BASH_VERSION}
+# # echo ${BASH_VERSION}
 
-for (( i=1; i<=5; i++ )) # as usual we do in other prgraming lanuage
-do 
-     echo $i
+# for (( i=1; i<=5; i++ )) # as usual we do in other prgraming lanuage
+# do 
+#      echo $i
+# done
+
+
+
+##  select loop
+
+
+# select name in Vipul Aman Sonia Shuaib
+# do 
+#      echo "$name Selected"
+# done
+
+
+
+## loop with break keyword
+
+echo "Break keyword in shell bash \n"
+
+for (( i=1; i<10; i++ ))
+do
+ if [ $i -eq 5 ]; then
+ break
+ else
+   echo "number is $i"
+fi
 done
 
+
+echo "Continue keyword in shell bash"
+for (( i=1; i<10; i++ ))
+do
+ if [ $i -eq 5 ]; then
+ continue
+ else
+   echo "number is $i"
+fi
+done
